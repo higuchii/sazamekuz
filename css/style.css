@@ -1116,7 +1116,7 @@ input[type="radio"]:checked + .radio-text:before {
     .button_box {
         top: 3vh;
     } 
-#live,#news,#discography,#biography,#movie {
+#live,#news,#discography,#biography,#movie,#news_movie {
         padding-bottom: 1rem;
     }
     .detail_txt,#discography ul, #biography ul {

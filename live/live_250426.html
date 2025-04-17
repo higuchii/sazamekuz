@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <title>BIOGRAPHY | sazamekuz</title>
+    <title>LIVE | sazamekuz</title>
     <!--サイト説明文-->
     <meta name="description" content="福島県発。4ピースバンドsazamekuzです。">
     <meta http-equiv="Content-Style-Type" content="text/css">
     <meta property="og:title" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
+    <meta property="og:url" content="https://sazamekuz.vercel.app/">
+    <meta property="og:image" content="../images/kv.jpg">
     <!--IE用互換表示の対応-->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!--ビューポート-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--リセットCSS-->
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="../css/reset.min.css">
     <!--ベースCSS-->
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <!--サイト用のstyle.css-->
+    <link rel="stylesheet" href="../css/style.css">
     <!--CDNやプラグインのCSS読み込み Google Fontsなど-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,10 +43,8 @@
     <script src="https://www.youtube.com/iframe_api"></script>
     <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/4086eb9990.js" crossorigin="anonymous"></script>
-    <!--サイト用のstyle.css-->
-    <link rel="stylesheet" href="css/style.css">
     <!--ファビコン-->
-    <link rel="shortcut icon" href="images/favicon.jpg">
+    <link rel="shortcut icon" href="../images/favicon.jpg">
   </head>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LKVT3Z1CFE"></script>
@@ -62,14 +62,14 @@
       <nav class="gNav">
         <div class="gNav_all pcNav">
           <ul class="gNav_list wrapper">
-            <a href="index.html" class="logo"
-            ><img src="images/logo_b.png" alt=""></a>
-              <a href="live.html" class="gNav_item gNav_link">LIVE</a>
-              <a href="news.html" class="gNav_item gNav_link">NEWS</a>
-              <a href="movie.html" class="gNav_item gNav_link">MOVIE</a>
+            <a href="../index.html" class="logo"
+            ><img src="../images/logo_b.png" alt=""></a>
+              <a href="../live.html" class="gNav_item gNav_link">LIVE</a>
+              <a href="../news.html" class="gNav_item gNav_link">NEWS</a>
+              <a href="../movie.html" class="gNav_item gNav_link">MOVIE</a>
               <a href="https://sugukieruz.base.shop/" class="gNav_item gNav_link" target="_blank">GOODS</a>
-              <a href="biography.html" class="gNav_item gNav_link">BIOGRAPHY</a>
-              <a href="discography.html" class="gNav_item gNav_link">DISCOGRAPHY</a>
+              <a href="../biography.html" class="gNav_item gNav_link">BIOGRAPHY</a>
+              <a href="../discography.html" class="gNav_item gNav_link">DISCOGRAPHY</a>
               <a href="mailto:sazamekuz&#64;gmail.com" class="gNav_item contact">CONTACT</a>
           </ul>
         </div>
@@ -82,14 +82,14 @@
         </div>
         <div class="gNav_all spNav">
           <ul class="gNav_list flex wrapper">
-            <a href="index.html" class="logo"
-            ><img src="./images/logo_b.png" alt=""></a>
-              <a href="live.html" class="gNav_item gNav_link">LIVE</a>
-              <a href="news.html" class="gNav_item gNav_link">NEWS</a>
-              <a href="movie.html" class="gNav_item gNav_link">MOVIE</a>
+            <a href="../index.html" class="logo"
+            ><img src="../images/logo_b.png" alt=""></a>
+              <a href="../live.html" class="gNav_item gNav_link">LIVE</a>
+              <a href="../news.html" class="gNav_item gNav_link">NEWS</a>
+              <a href="../movie.html" class="gNav_item gNav_link">MOVIE</a>
               <a href="https://sugukieruz.base.shop/" class="gNav_item gNav_link" target="_blank">GOODS</a>
-              <a href="biography.html" class="gNav_item gNav_link">BIOGRAPHY</a>
-              <a href="discography.html" class="gNav_item gNav_link">DISCOGRAPHY</a>
+              <a href="../biography.html" class="gNav_item gNav_link">BIOGRAPHY</a>
+              <a href="../discography.html" class="gNav_item gNav_link">DISCOGRAPHY</a>
               <a href="mailto:sazamekuz&#64;gmail.com" class="gNav_item contact">CONTACT</a>
           </ul>
         </div>
@@ -97,28 +97,43 @@
     </header>
     <!--メインコンテンツ-->
     <main>
-      <!--ディスコグラフィ-->
-      <section class="wrapper_min" id="biography">
-        <div class="title">
-          <h1 class="title_text">BIOGRAPHY</h1>
-        </div>
-        <ul class="">
-            <img src="./images/bio.jpg" alt="twist!twist!twist!" class="contents">
-            <li class="contents">
-              <p>
-                Vo/Gt モリオタクム<br>
-                <!-- Gt カメオカユウキ<br> -->
-                Ba サトウヒビキ<br>
-                Dr スズキトア</p>
-              <p>僕ら　福島県福島市よりフォーピースバンド。四人で歌う、四人揃ってsazamekuzです。</p>
-            </li>
-        </ul>
-        <a class="button_box" href="index.html">
-          <span>BACK</span>
-        </a>
-      </section>
-    </main>
-    
+        <!-- ライブ情報-->
+        <section class="wrapper_min" id="live">
+            <div class="title">
+                <h1 class="title_text">LIVE</h1>
+            </div>
+            <div>
+              <div class="detail_title">
+                <p>2025.04.26(土)</p>
+                <p>omamori<br>
+                @京都Live house nano</p>
+              </div>
+              <div class="detale_all">
+                <div class="detail_txt">
+                  <img src="../images/250426.jpeg" alt="omamori" class="contents">
+                  <div class="contents">
+                    <p>
+                      【会場】<br>
+                      京都Live house nano：<a href="https://livehouse-nano.com/" class="link">https://livehouse-nano.com/</a><br>
+                      <a href="https://maps.app.goo.gl/fR8rAss2UTJhhYwL9" class="link">〒604-0042<br>京都府京都市中京区 西洞院東入ル二条西洞院町632-3</a>
+                    <p>
+                      【時間】<br>
+                      開場：17:30/開演：18:00</p>
+                    <p>【料金】<br>
+                      前売：¥3,000/当日：¥3,500/+1D(¥500)</p>
+                      <p>【共演者】<br>
+                        真舟とわ/sazamekuz/オートコード</p>
+                        <p>【チケット購入方法】<br>
+                          取り置きはDMまたはメールまで！<br>
+                        </p>
+                  </div>
+              </div>
+            </div>
+            </div>
+            <a class="button_box" href="../index.html">
+              <span>BACK</span>
+            </a>
+          </section>
 <section class="" id="sns">
     <ul class="">
       <a href="https://x.com/sazamekuz" target="_blank" id="x">
@@ -159,6 +174,6 @@
       <footer class="footer">
         <small>©︎2024 sazamekuz</small>
       </footer>
-      <script src="js/script.js"></script>
+      <script src="../js/script.js"></script>
     </body>
 </html>

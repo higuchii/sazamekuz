@@ -540,6 +540,9 @@ TOP-MOVIE
     display: flex;
     justify-content: space-between;
 }
+#discography .flex_discography img {
+    max-width: 23rem;
+}
 /*/ディスコグラフィ*/
 
 /* コンタクト */

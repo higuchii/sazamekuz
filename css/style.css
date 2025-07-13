@@ -541,7 +541,11 @@ TOP-MOVIE
     justify-content: space-between;
 }
 #discography .flex_discography img {
-    max-width: 30rem;
+    /* max-width: 30rem; */
+    min-width: 24rem;
+}
+.flex_discography a {
+    margin: 0 10px;
 }
 /*/ディスコグラフィ*/
 

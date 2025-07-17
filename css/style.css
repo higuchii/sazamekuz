@@ -648,12 +648,11 @@ movie.html
   ==========================
   discography.html
   ========================== */
-  #discography .flex_discography2 img {
-    /* max-width: 30rem; */
-    min-width: 24rem;
+  #discography .flex_discography2 {
+    flex-wrap: wrap;
 }
 .flex_discography2 a {
-    margin: 0 10px;
+    width: 30%;
 }
 
 @media (max-width:1024px) {
@@ -965,6 +964,16 @@ movie.html
     #top_movie {
         overflow: hidden;
       }
+        /*
+  ==========================
+  discography.html
+  ========================== */
+  #discography .flex_discography2 {
+    flex-direction: initial;
+}
+.flex_discography2 a {
+    width: 48%;
+}
     
 }
 /* =============トップページ終=================*/ 

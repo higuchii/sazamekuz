@@ -541,8 +541,8 @@ TOP-MOVIE
     display: flex;
     justify-content: space-between;
 }
-#discography .flex_discography img {
-    max-width: 30rem;
+#discography .flex_discography a {
+    width: 30%;
 }
 /*/ディスコグラフィ*/
 
@@ -721,7 +721,7 @@ movie.html
         flex-direction: column;
     }
     #discography .flex_discography {
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
     #discography .flex_discography a {
         width: 48%;

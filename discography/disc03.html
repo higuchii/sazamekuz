@@ -18,9 +18,11 @@
     <!--ビューポート-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--リセットCSS-->
-    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="../css/reset.min.css">
     <!--ベースCSS-->
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <!--サイト用のstyle.css-->
+    <link rel="stylesheet" href="../css/style.css">
     <!--CDNやプラグインのCSS読み込み Google Fontsなど-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,8 +43,6 @@
     <script src="https://www.youtube.com/iframe_api"></script>
     <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/4086eb9990.js" crossorigin="anonymous"></script>
-    <!--サイト用のstyle.css-->
-    <link rel="stylesheet" href="css/style.css">
     <!--ファビコン-->
     <link rel="shortcut icon" href="images/favicon.jpg">
   </head>
@@ -62,14 +62,14 @@
       <nav class="gNav">
         <div class="gNav_all pcNav">
           <ul class="gNav_list wrapper">
-            <a href="index.html" class="logo"
-            ><img src="images/logo_b.png" alt=""></a>
-              <a href="live.html" class="gNav_item gNav_link">LIVE</a>
-              <a href="news.html" class="gNav_item gNav_link">NEWS</a>
-              <a href="movie.html" class="gNav_item gNav_link">MOVIE</a>
+            <a href="../index.html" class="logo"
+            ><img src="../images/logo_b.png" alt=""></a>
+              <a href="../live.html" class="gNav_item gNav_link">LIVE</a>
+              <a href="../news.html" class="gNav_item gNav_link">NEWS</a>
+              <a href="../movie.html" class="gNav_item gNav_link">MOVIE</a>
               <a href="https://sugukieruz.base.shop/" class="gNav_item gNav_link" target="_blank">GOODS</a>
-              <a href="biography.html" class="gNav_item gNav_link">BIOGRAPHY</a>
-              <a href="discography.html" class="gNav_item gNav_link">DISCOGRAPHY</a>
+              <a href="../biography.html" class="gNav_item gNav_link">BIOGRAPHY</a>
+              <a href="../discography.html" class="gNav_item gNav_link">DISCOGRAPHY</a>
               <a href="mailto:sazamekuz&#64;gmail.com" class="gNav_item contact">CONTACT</a>
           </ul>
         </div>
@@ -82,14 +82,14 @@
         </div>
         <div class="gNav_all spNav">
           <ul class="gNav_list flex wrapper">
-            <a href="index.html" class="logo"
-            ><img src="./images/logo_b.png" alt=""></a>
-              <a href="live.html" class="gNav_item gNav_link">LIVE</a>
-              <a href="news.html" class="gNav_item gNav_link">NEWS</a>
-              <a href="movie.html" class="gNav_item gNav_link">MOVIE</a>
+            <a href="../index.html" class="logo"
+            ><img src="../images/logo_b.png" alt=""></a>
+              <a href="../live.html" class="gNav_item gNav_link">LIVE</a>
+              <a href="../news.html" class="gNav_item gNav_link">NEWS</a>
+              <a href="../movie.html" class="gNav_item gNav_link">MOVIE</a>
               <a href="https://sugukieruz.base.shop/" class="gNav_item gNav_link" target="_blank">GOODS</a>
-              <a href="biography.html" class="gNav_item gNav_link">BIOGRAPHY</a>
-              <a href="discography.html" class="gNav_item gNav_link">DISCOGRAPHY</a>
+              <a href="../biography.html" class="gNav_item gNav_link">BIOGRAPHY</a>
+              <a href="../discography.html" class="gNav_item gNav_link">DISCOGRAPHY</a>
               <a href="mailto:sazamekuz&#64;gmail.com" class="gNav_item contact">CONTACT</a>
           </ul>
         </div>
@@ -97,40 +97,38 @@
     </header>
     <!--メインコンテンツ-->
     <main>
-      <!--ディスコグラフィ-->
-      <section class="wrapper_min" id="discography">
-        <div class="title">
-          <h1 class="title_text">DISCOGRAPHY</h1>
-        </div>
-        <ul class="flex_discography2">
-          <a href="./discography/disc04.html">
-            <img src="./images/250702.jpg" alt="黄色">
-            <p class="">2025年9月3日発売<br>
-              1st full album 「黄色」</p>
-          </a>
-          <a href="./discography/disc03.html">
-            <img src="./images/240821_1.jpeg" alt="楽園">
-            <p class="">2024年9月5日発売<br>
-              1st EP「楽園」</p>
-          </a>
-          <a href="./discography/disc02.html">
-            <img src="./images/1st_mini_album.jpeg" alt="twist!twist!twist!">
-            <p class="">2023年11月25日発売<br>
-              1st mini album「twist！twist！twist！」</p>
-          </a>
-          <a href="./discography/disc01.html">
-            <img src="./images/1st_ep.jpeg" alt="優しい歌を歌っていてね">
-            <p class="">2023年2月20日発売<br>
-              1st EP「Yasashi uta wo utatte itene」</p>
-          </a>
-        </ul>
-        <a class="button_box" href="index.html">
-          <span>BACK</span>
-        </a>
-      </section>
-    </main>
-    
-<section class="" id="sns">
+        <!-- ディスコグラフィ情報-->
+        <article class="wrapper_min" id="discography">
+            <div class="title">
+                <h1 class="title_text">DISCOGRAPHY</h1>
+            </div>
+            <div>
+              <div class="detail_title detail_title2">
+                <p>楽園</p>
+              </div>
+              <div class="detale_all">
+                <div class="detail_txt">
+                  <img src="../images/240821_1.jpeg" alt="楽園" class="contents">
+                  <div class="contents">
+                    <p>【リリース情報】</p>
+                    <p>2024年9月5日(木)リリース
+                      「楽園」<br>
+                      ¥1,100(税込)</p>
+                      【収録曲】
+                      <p>1. 楽園<br>
+                        2. ダイヤモンド<br>
+                        3. teen age<br>
+                      </p>
+                  </div>
+              </div>
+            </div>
+            </div>
+            <a class="button_box" href="../index.html">
+              <span>BACK</span>
+            </a>
+        </article>
+
+<section class="fadein" id="sns">
     <ul class="">
       <a href="https://x.com/sazamekuz" target="_blank" id="x">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="72" height="72" viewBox="0 0 24 24" stroke-width="1.5" stroke="#464646" fill="none" stroke-linecap="round" stroke-linejoin="round">

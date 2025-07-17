@@ -177,6 +177,7 @@ p {
           }
   }
 /* ===============動き系cssまとめ ここまで============*/
+/* 
 
 /*メイン*/
 header {
@@ -541,41 +542,10 @@ TOP-MOVIE
     justify-content: space-between;
 }
 #discography .flex_discography img {
-    /* max-width: 30rem; */
-    min-width: 24rem;
-}
-.flex_discography a {
-    margin: 0 10px;
+    max-width: 30rem;
 }
 /*/ディスコグラフィ*/
 
-/* コンタクト */
-.distorted-circle {
-	width: 150px;
-	height: 150px;
-	border-radius: 69% 31% 39% 61% / 53% 22% 78% 47% ; /* 左上、右上、右下、左下 */
-	background: #E2856E;
-    margin: auto;
-    position: relative;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-.distorted-circle p{
-    font-size: 24px;
-    position: absolute;
-    top: 20%;
-    left: 15%;
-    color: #fff;
-    display: inline-block;
-}
-
-.distorted-circle:hover {
-	background: #cf7963;
-    color: #E2856E;
-    border: 1px solid #E2856E;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-/* コンタクト 終*/
 
 /* SNS */
 #sns ul {
@@ -606,6 +576,7 @@ footer small {
 }
 /* フッター 終*/
 /* =============トップページ終=================*/
+
 
 /*
 ==========================
@@ -673,404 +644,25 @@ movie.html
   #movie ul li, #news_movie ul li {
       width: 48%;
   }
-
-
-/* work詳細 */
-.work_all .work_box {
-    position: relative;
-    width: 45%;
+  /*
+  ==========================
+  discography.html
+  ========================== */
+  #discography .flex_discography2 img {
+    /* max-width: 30rem; */
+    min-width: 24rem;
 }
-.work_all .work_box img {
-    width: 100%;
-    height: 280px;
-    object-fit: cover;
-    z-index: 1;
-    border: 0;
+.flex_discography2 a {
+    margin: 0 10px;
 }
 
-.work_all .work_box a::after {
-    content:"";
-    background-image: url(/images/bg1.png);
-    position: absolute;
-    width: 100%;
-    height: 280px;
-    top: 6%;
-    left: 3%;
-    z-index: -1;
-}
-.work_all .work_box2 a::after {
-    background-image: url(/images/bg2.png);
-}
-.work_all .work_box3 a::after {
-    background-image: url(/images/bg3.png);
-}
-
-.work_all .work_box a::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 0%;
-    opacity: 0;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    background: rgba(145, 182, 147, 0.9);
-    }    
-.work_all .work_box a:hover::before{
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-}
-.work_all .work_box2 a::before{
-     background: rgba(219, 84, 97, 0.7);
-}    
-.work_all .work_box3 a::before{
-    background: rgba(133, 199, 242, 0.9);
-}
-.work_info {
-    padding: 50px;
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    opacity: 0;
-}
-.work_info:hover{
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    opacity: 1;
-}
-.work_box p {
-    margin: 0;
-}
-/* work詳細　終 */
-
-/* web詳細ページ */
-.workinfo_box_all {
-    margin-bottom: 50px;
-}
-.workinfo_box{
-    width: 50%;
-}
-.weburl:hover{
-    color: #91B693;
-}
-.tag {
-    background: #91B693;
-    color: #fff;
-    text-align: center;
-    display: inline-block;
-    width: 25%;
-}
-.workinfo_2 {
-    background-color: #fff;
-    position: relative;
-    padding: 60px 100px;
-}
-.workinfo_2::after {
-    content: "";
-    position: absolute;
-    top: 2%;
-    left: 2%;
-    width: 100%;
-    height: 100%;
-    display: block;
-    background-image: url(/images/bg1.png);
-    z-index: -1;
-}
-.web_hr {
-    background-color: #91B693;
-}
-/* web詳細ページ　終 */
-
-/* scholl詳細ページ */
-.tag_school,.school_hr{
-    background: #DB5461;
-}
-.workinfo_2_school::after {
-    background-image: url(/images/bg2.png);
-}
-/* scholl詳細ページ　終 */
-
-/* hobby詳細ページ */
-.tag_hobby,.hobby_hr,.hobbyurl:hover{
-    background: #85C7F2;
-}
-.workinfo_2_hobby::after {
-    background-image: url(/images/bg3.png);
-}
-.photo img {
-    width: 48%;
-}
-/* hobby詳細ページ　終 */
-/* profile詳細ページ */
-.profileinfo{
-    width: 30%;
-}
-.profileinfo2 {
-    width: 65%;
-}
-.profileinfo img{
-        background: #F2F2F2;
-        border-radius: 50%;
-        width: 100%;
-}
-.profileinfo h2{
-    text-align: center;
-}
-.skillbox_all {
-    background: #F2F2F2;
-    flex-wrap: wrap;
-    padding: 50px;
-}
-.skillbox_all::after {
-    display: block;
-    content:"";
-    width: 33%;
-    }
-.skillbox_step::after {
-    display: block;
-    content:"";
-    width: 300px;
-    }
-.skill_box {
-    text-align: center;
-    margin: auto;
-    width: 30%;
-}
-.skill_box p {
-    margin: 0;
-    font-size: 12px;
-    text-align: start;
-    height: 60px;
-}
-.skill_box h3 {
-    text-align: center;
-    margin: auto;
-}
-icon-tabler-brand-html5,icon-tabler-brand-css3, icon-tabler-brand-javascript{
-    width: 100%;
-}
-.skill_box .Adobe {
-    font-family: 'Lato',sans-serif;
-    font-size: 45px;
-    text-align: center;
-    border: 4px solid #464646;
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    line-height: 60px;
-    margin: 10px 0 17px;
-}
-.wplogo {
-    width: 32%;
-    margin: 8px auto;
-}
-/* 経歴 */
-.career_all {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.career_box {
-    width: 20%;
-    background-color: #F2F2F2;
-    padding: 20px;
-}
-.career_box h3,.career_box h4 {
-    margin: 0;
-    text-align: center;
-}
-.career_box2 {
-    width: 75%;
-}
-.career_box2 p{
-    margin: 0;
-}
-.career_box_sub {
-    background-color: transparent;
-}
-/* 趣味 */
-.hobby_all {
-    display: flex;
-    flex-wrap: wrap;
-    background: #F2F2F2;
-    padding:50px;
-}
-.h_music::before{
-content:url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20class%3D%22icon%20icon-tabler%20icon-tabler-headphones%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2024%2024%22%20stroke-width%3D%221.5%22%20stroke%3D%22%23464646%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%20%3Cpath%20stroke%3D%22none%22%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%20%3Crect%20x%3D%224%22%20y%3D%2213%22%20rx%3D%222%22%20width%3D%225%22%20height%3D%227%22%20%2F%3E%20%3Crect%20x%3D%2215%22%20y%3D%2213%22%20rx%3D%222%22%20width%3D%225%22%20height%3D%227%22%20%2F%3E%20%3Cpath%20d%3D%22M4%2015v-3a8%208%200%200%201%2016%200v3%22%20%2F%3E%3C%2Fsvg%3E');
-}
-
-.h_photo::before{
-    content:url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20class%3D%22icon%20icon-tabler%20icon-tabler-camera%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2024%2024%22%20stroke-width%3D%221.5%22%20stroke%3D%22%23464646%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%20%3Cpath%20stroke%3D%22none%22%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%20%3Cpath%20d%3D%22M5%207h1a2%202%200%200%200%202%20-2a1%201%200%200%201%201%20-1h6a1%201%200%200%201%201%201a2%202%200%200%200%202%202h1a2%202%200%200%201%202%202v9a2%202%200%200%201%20-2%202h-14a2%202%200%200%201%20-2%20-2v-9a2%202%200%200%201%202%20-2%22%20%2F%3E%20%3Ccircle%20cx%3D%2212%22%20cy%3D%2213%22%20r%3D%223%22%20%2F%3E%3C%2Fsvg%3E');
-    }
-.h_wear::before {
-    content: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20class%3D%22icon%20icon-tabler%20icon-tabler-hanger%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2024%2024%22%20stroke-width%3D%221.5%22%20stroke%3D%22%23464646%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%20%3Cpath%20stroke%3D%22none%22%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%20%3Cpath%20d%3D%22M15%207a3%203%200%201%200%20-3%203v2m0%200l-8.624%205.488a0.82%20.82%200%200%200%20.44%201.512h16.368a0.82%20.82%200%200%200%20.44%20-1.512l-8.624%20-5.488z%22%20%2F%3E%3C%2Fsvg%3E');
-}
-
-.h_map::before {
-    content: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20class%3D%22icon%20icon-tabler%20icon-tabler-map-pin%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2024%2024%22%20stroke-width%3D%221.5%22%20stroke%3D%22%23464646%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%20%3Cpath%20stroke%3D%22none%22%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%20%3Ccircle%20cx%3D%2212%22%20cy%3D%2211%22%20r%3D%223%22%20%2F%3E%20%3Cpath%20d%3D%22M17.657%2016.657l-4.243%204.243a2%202%200%200%201%20-2.827%200l-4.244%20-4.243a8%208%200%201%201%2011.314%200z%22%20%2F%3E%3C%2Fsvg%3E');
-}
-
-.hobby_all li{
-    width: 25%;
-    margin: 15px 0;
-    text-align: center;
-}
-
-.hobby_all li p{ 
-    margin: 0;
-}
-/* profile詳細ページ 終*/
-/* 問い合わせ */
-.all_contact {
-    background-color: #EBF3F3;
-    padding: 50px;
-    margin-top: 50px;
-}
-.all_contact h1 {
-    text-align: center;
-    padding-top: 40px;
-}
-.formTable {
-    margin: auto;
-}
-.formTable .check{
-    background-color: #10BB88;
-    color: #fff;
-    font-size: 12px;
-    font-weight: normal;
-    padding: 3px 6px;
-    margin-left: 10px;
-}
-.formTable th {
-    text-align: left;
-    width: 280px;
-    font-weight: normal;
-}
-.formTable td {
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-}
-.formTable input[type=text] {
-    width: 100%;
-    height: 40px;
-    font-size: 16px;
-    padding: 20px;
-}
-.formTable textarea {
-    height: 150px;
-}
-
-input[type="submit"] {
-    display: block;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    background-color: #10BB88;
-    color: #fff;
-    border-radius: 5px;
-    padding: 15px;
-    border: 1px solid #10BB88;
-    font-size: 18px;
-    width: 30%;
-}
-input[type="submit"]:hover{
-    background-color: #fff;
-    color: #10BB88;
-    padding: 15px;
-    border: 1px solid #10BB88;
-    transition: 0.3s;
-}
-textarea::selection,input[type=text]::selection  {
-    background: #D6F2EB;
-    color: #F88600;
-}
-/*ラジオボタン*/
-.radio-label {
-  display: block;
-}
-
-input[type="radio"] {
-  display: none;
-}
-
-.radio-text:before {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-right: 6px;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 50%;
-  padding: 2px;
-  background-clip: content-box;
-}
-
-input[type="radio"]:not(:checked) + .radio-text:before {
-  border-color: #333333;
-  background: #fff;
-}
-
-input[type="radio"]:checked + .radio-text:before {
-  background-color: #10BB88;
-}
 @media (max-width:1024px) {
     body{
         font-size: 16px;
     }
-    .profileinfo,.profile_box img{
-        width: 100%;
-    }
-    .profile_box1 {
-        border: #91B693 solid 4px;
-        padding: 10px 25px;
-    }
-    .skill_box {
-        width: 30%;
-    }
-    .profileinfo img {
-        background: #F2F2F2;
-        border-radius: 50%;
-        width: 50%;
-    }
-    .work_box_all{
-        justify-content: space-between;
-    }
-    .work_box {
-        width: 32%;
-        position: relative;
-    }
-    .work_box img {
-        width: 100%;
-        height: 154px;
-    }
 /* =============トップページ終=================*/ 
 
 /* =============詳細ページ=================*/ 
-
-    .work_all .work_box img {
-        height: 180px;
-    }
-    .work_all .work_box a::after {
-        height: 180px;
-    }
-    .work_all .work_box a::after {
-        top: 5%;
-        left: 3%;
-    }
-    .work_info {
-        padding: 10px;
-    }
-    .workinfo_2 {
-        padding: 5vw 3vw;
-    }
 }
 /* @media (max-width:800px) {
     .profile_box_all {

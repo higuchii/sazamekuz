@@ -59,9 +59,6 @@ hr {
 p {
     font-family: lato;
 }
-/* main {
-    margin-top: 8vh;
-} */
 .main {
     padding-top: 12vh;
 }
@@ -71,12 +68,6 @@ p {
     margin: auto;
 }
 
-/* .wrapper_min {
-    max-width: 960px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 80px 0;
-} */
 .wrapper_min {
     max-width: 66vw;
     margin-right: auto;
@@ -265,18 +256,6 @@ header {
     overflow: hidden;
     margin: auto;
 }
-/* .kv h1 {
-    font-family: 'Yuji Boku', serif;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-    position: absolute;
-    right: 23vw;
-    top: 9vw;
-    color: #fff;
-    font-size: 4vw;
-    letter-spacing: 1.8vw;
-    font-weight: initial;
-} */
 .kv h1 {
     position: absolute;
     right: 38vw;
@@ -373,34 +352,7 @@ header {
     position: relative;
     font-weight: 600;
 }
-   
-/* .button_box {
-    text-align: center;
-    padding: 60px 0;
-}
 
-.button_box2 a{ 
-    background-color: #fff;
-}
-.button_box a {
-    color: #91B693;
-    background: #fff;
-    border: 1px solid #91B693;
-    padding: 10px;
-    display: inline-block;
-    padding: 15px 30px 15px 30px;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.button_box a:hover{
-    color: #fff;
-    background-color: #91B693;
-    border: 1px solid #91B693;
-    padding: 10px;
-    display: inline-block;
-    padding: 15px 30px 15px 30px;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-} */
 /* 共通 終*/
 
 /* 
@@ -659,30 +611,8 @@ movie.html
     body{
         font-size: 16px;
     }
-/* =============トップページ終=================*/ 
-
-/* =============詳細ページ=================*/ 
+/* =============詳細ページ終=================*/ 
 }
-/* @media (max-width:800px) {
-    .profile_box_all {
-        flex-direction: column;
-    }
-    .profile_box {
-        width: 40%;
-    }
-    .profile_box1 {
-        width: 80%;
-    }
-    .work_box_all.flex {
-        flex-direction: column;
-    }
-    .work_box {
-        width: 60%;
-    }
-    .work_box img {
-        height: 200px;
-    }
-} */
 
 @media (max-width:768px) {
 
@@ -914,31 +844,6 @@ movie.html
     footer small {
         margin: 0; 
     }
- 
- /*お問い合せ*/
-    .contactForm .formTable tr {
-        display: flex;
-        flex-direction: column;
-    }
-    .all_contact {
-        padding: 0px;
-    }
-    .contactForm .formTable td {
-        width: 90vw;
-        margin: auto;
-    }
-    .formTable input[type=text],textarea {
-        width: 89vw;
-    }
-    input[type="submit"] {
-        margin-top: 0;
-        font-size: 12px;
-        width: 40%;
-    }
-    .contactForm {
-        padding-bottom: 50px;
-    }
-
     
     #movie ul li, #news_movie ul li {
         width: 100%;
@@ -964,9 +869,10 @@ movie.html
     #top_movie {
         overflow: hidden;
       }
+ /* =============トップページ終=================*/ 
         /*
   ==========================
-  discography.html
+  discography.html　詳細ページ
   ========================== */
   #discography .flex_discography2 {
     flex-direction: initial;
@@ -976,4 +882,3 @@ movie.html
 }
     
 }
-/* =============トップページ終=================*/ 

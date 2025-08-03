@@ -259,7 +259,7 @@ header {
 .kv h1 {
     position: absolute;
     right: 38vw;
-    top: 23vw;
+    top: 13vw;
     width: 23%;
 }
 /* 
@@ -823,6 +823,7 @@ movie.html
         width: 53%;
         /* margin: auto; */
         right: 23vw;
+        top: 6vw;
     }
     #discography .disc a {
         width: 48%;

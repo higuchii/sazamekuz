@@ -121,17 +121,6 @@ $(function () {
     });
 });
 
-//slickの設定
-// $('.slider').slick({
-//     autoplay: false, //自動スライド
-//     autoplaySpeed: 30, //スライドさせる間隔
-//     dots: true, //ドットインジケーターを表示
-//     lazyLoad: "progressive", //画像の遅延読み込み
-//     arrows: false, //スライドの左右の矢印ボタンを非表示
-//     centerMode: true,
-//     // variableWidth: true,
-//     centerPadding: "15%"
-// });
 
 $(document).ready(function(){
     var swiper = new Swiper(".swiper", {

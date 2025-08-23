@@ -135,40 +135,27 @@ $(function () {
 
 $(document).ready(function(){
     var swiper = new Swiper(".swiper", {
-      loop: true, // ループ
-      speed: 1500, // 少しゆっくり(デフォルトは300)
-      slidesPerView: 1, // 一度に表示する枚数
-      spaceBetween: 10, // スライド間の距離
-      centeredSlides: true, // アクティブなスライドを中央にする
-      // ページネーション
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      // 前後の矢印
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      breakpoints: {
-		768: {
-            loop: true, // ループ
-            speed: 1500, // 少しゆっくり(デフォルトは300)
-            slidesPerView: 2, // 一度に表示する枚数
-            spaceBetween: 10, // スライド間の距離
-            centeredSlides: true, // アクティブなスライドを中央にする
-            // ページネーション
-            pagination: {
-              el: ".swiper-pagination",
-              clickable: true,
+        loop: true, // ループ
+        speed: 1500, // 少しゆっくり(デフォルトは300)
+        slidesPerView: 1, // 一度に表示する枚数
+        spaceBetween: 10, // スライド間の距離
+        centeredSlides: true, // アクティブなスライドを中央にする
+        // ページネーション
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        // 前後の矢印
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 2, // 一度に表示する枚数
+                spaceBetween: 10, // スライド間の距離
+                centeredSlides: true, // アクティブなスライドを中央にする
             },
-            // 前後の矢印
-            navigation: {
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-            },
-		}
-	}
+        },
     });
-  });
-  
+});

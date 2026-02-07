@@ -454,7 +454,7 @@ TOP-MOVIE
       border-radius: 50px;
       visibility: visible;
       font-size: 3rem;
-      color: rgb(252 3 4 / 50%)
+      color: rgb(252 3 4 / 50%);
       font-weight: bold;
       top: 35%;
   }
@@ -467,10 +467,10 @@ TOP-MOVIE
     right: 22%;
   }
   .swiper-pagination .swiper-pagination-bullet {
-      background: rgb(252 3 4 / 50%)
+      background: rgb(252 3 4 / 50%);
     }
     .swiper-pagination .swiper-pagination-bullet-active {
-      background:rgb(16, 187, 136);
+      background:#fd0203
     }
     
     .supplier {

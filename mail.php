@@ -187,7 +187,7 @@ input[type="submit"], input[type="reset"], input[type="button"] {
     <div class="gNav_all pcNav">
       <ul class="gNav_list wrapper">
         <a href="index.html" class="logo"
-        ><img src="images/logo_b.png" alt=""></a>
+        ><img src="images/logo_red.png" alt=""></a>
           <a href="live.html" class="gNav_item gNav_link">LIVE</a>
           <a href="news.html" class="gNav_item gNav_link">NEWS</a>
           <a href="movie.html" class="gNav_item gNav_link">MOVIE</a>
@@ -207,7 +207,7 @@ input[type="submit"], input[type="reset"], input[type="button"] {
     <div class="gNav_all spNav">
       <ul class="gNav_list flex wrapper">
         <a href="index.html" class="logo"
-        ><img src="./images/logo_b.png" alt=""></a>
+        ><img src="./images/logo_red.png" alt=""></a>
           <a href="live.html" class="gNav_item gNav_link">LIVE</a>
           <a href="news.html" class="gNav_item gNav_link">NEWS</a>
           <a href="movie.html" class="gNav_item gNav_link">MOVIE</a>

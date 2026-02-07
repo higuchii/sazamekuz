@@ -115,7 +115,7 @@ p {
 }
 #cursor.active{
     transform: scale(4.4);
-    background: rgba(16, 187, 136, 0.3);
+    background: rgb(255 232 232);
   }
  /* ===============動き系cssまとめ ============*/
  /* ふわっと表示 */

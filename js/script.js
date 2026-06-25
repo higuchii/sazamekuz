@@ -61,7 +61,7 @@ $(function () {
             // 画面をトップから300px以上スクロールした時
             if ($(this).scrollTop() >= 300) {
                 // ボタンの色を変更
-                spNav_button.css({ 'background': 'rgb(16, 187, 136)'});
+                spNav_button.css({ 'background': '#fd0203'});
             } else {
                 // 画面がトップから300px以下の時は元の色に戻す
                 spNav_button.css({ 'background': '' });
@@ -71,7 +71,7 @@ $(function () {
         // .testが存在しない場合でもスクロールイベントは適用する
         $(window).scroll(function () {
                 // ボタンの色を変更
-                spNav_button.css({ 'background': 'rgb(16, 187, 136)'});
+                spNav_button.css({ 'background': '#fd0203'});
         });
     }
 });
